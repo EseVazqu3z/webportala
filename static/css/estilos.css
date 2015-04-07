@@ -1,3 +1,13 @@
+/*Utilities*/
+
+.u-title{
+  color: #00CCFF;
+  border-bottom:2px dashed #00CCFF;
+  font-weight:normal;
+  text-align:center;
+  padding-bottom:.5em;
+}
+/*MainMenu*/
 .MainMenu{
   background: #1E1E1E;
   text-align:center;
@@ -30,10 +40,100 @@
   background-position: center;
   background-size:cover;/*cubra todo el ancho disponible*/
   text-align:center;
+  padding:1.25em 0;
+}
+.Header-imageContainer{
+  margin:0;
 }
 .Header-image{
   border:5px solid white; /*Parametros: tamaño, tipo y color*/
   border-radius:10px 50px 5px 60px; /*Parametros: bordesupizq, bordesupderech, bordeinfdere, bordeinfizqu*/
   /*Me gusto la figura: border-radius:10px 50px 5px 60px;*/
 }
-/*Minuto: 35*/
+
+.Header-name,
+.Header-link{
+  color: white;
+}
+.Header-link{
+  font-size:2.2em;
+  font-weight:bold;
+  text-decoration: none;
+}
+.Header-name{
+  font-size:1.5em;
+  font-weight:300;
+  margin:0;
+}
+
+/*Profile*/
+.Profile{
+  text-align:center;
+}
+.Profile-link{
+  background:orange;
+  color: white;
+  text-decoration:none;
+  padding:.5em 1em;
+  border-radius:2em;
+  margin-right:.5em;
+}
+/*Work*/
+.Work{
+  margin-top:2em;
+  text-align:center;
+}
+.Work-item{
+  display:inline-block;
+}
+.Work-imageContainer{
+  margin:0;
+}
+.Work-description{
+  font-size:1.1em;
+  color: #515151;
+  font-style: italic;
+}
+
+/*Footer*/
+
+.Footer{
+  background-image:url('../images/footer.jpg');
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: cover;
+  padding:2em 0;
+  text-align:center;
+}
+.Footer-form{
+  text-align:center;
+  display:inline-block;
+}
+.Footer-left{
+  display:inline-block;
+  width:32em;
+  text-align:center;
+  vertical-align:top;
+}
+.Footer-title{
+  color:white;
+}
+.Footer-formInput,
+.Footer-textarea{
+  background:white;
+  border:none;
+  display:block; /*Para que se centren se hacen con margenes*/
+  border-radius:2em;
+  padding:.5em;
+  margin:0 auto 1em;
+}
+.Footer-textarea{
+  resize:none; /*Para que no se cambie de tamaño por la esquina*/
+}
+.Footer-button{
+  background: orange;
+  color: whiter;
+  border-radius:1em;
+  border:none;
+  padding:.5em 1em;
+}
