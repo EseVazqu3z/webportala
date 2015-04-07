@@ -1,3 +1,39 @@
-body{
-  font-family: 'Open Sans', sans-serif;
+.MainMenu{
+  background: #1E1E1E;
+  text-align:center;
+  /*height:60px; Alto estatico*/
+  /*Alto relativo es con EM's y con %*/
+  height: 3.75em; /*Los 1em toma el valor de la fuente mas cercana*/
+  position:fixed;
+  left:0;
+  top:0;
+  right:0;
 }
+.MainMenu-list{
+  margin:0;/*margin: 10px 0; arriba y abajo son 10px de margen y 0px es de izquierda y derecha*/
+  padding:0; /*Es lo mismo que el margin para sus valores*/
+}
+.MainMenu-item{
+  display:inline-block;
+}
+.MainMenu-Link{
+  color: #00DBFF;
+  text-decoration:none;
+  line-height:3.75em;
+  margin-right:1.5em;
+}
+
+.Header{
+  margin-top:3.75em;
+  background-image: url('../images/portada.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;/*cubra todo el ancho disponible*/
+  text-align:center;
+}
+.Header-image{
+  border:5px solid white; /*Parametros: tamaño, tipo y color*/
+  border-radius:10px 50px 5px 60px; /*Parametros: bordesupizq, bordesupderech, bordeinfdere, bordeinfizqu*/
+  /*Me gusto la figura: border-radius:10px 50px 5px 60px;*/
+}
+/*Minuto: 35*/
