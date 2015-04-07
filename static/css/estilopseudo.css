@@ -1,0 +1,54 @@
+
+/*PSEUDOELEMENTOS*/
+.MainMenu{
+  background:lightgray;
+}
+.MainMenu:before{ /*Solo contenidos de diseño, no para usar SEO*/
+  width: 50px;
+  height: 50px;
+  display:block;
+  background: red;
+  content: "Contenido";
+}
+.MainMenu:after{ /*Solo contenidos de diseño, no para usar SEO*/
+  width: 50px;
+  height: 50px;
+  display:block;
+  background: green;
+  content: "Contenido";
+}
+p:first-line{
+  color:red;
+}
+p:first-letter{
+  color:grey;
+  font-size:3em;
+}
+/*PSEUDOCLASES*/
+/*a{
+  color:red;
+}
+a:hover{ /*encima de un elemento/
+  color:black;
+}
+a:active{/*ver si esta activo/
+  color: green;
+}
+a:visited{/*ver si ha sido visitado/
+  color: grey;
+}
+ul li{
+  background:green;
+}
+ul li:first-child{/*primer hijo/
+  background: blue;
+}
+ul li:last-child{/*ultimo hijo/
+  background: black;
+}
+ul li:nth-child(odd){/*elementos impares/
+  background:red;
+}
+ul li:nth-child(even){/*elementos pares/
+  background: pink;
+}*/
